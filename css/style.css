@@ -148,7 +148,7 @@
     height: 540px;
     top: 10px;
 }
-#texto{
+#textobox{
     position: relative;
     text-align: left;
     color: #a9bdd8;
@@ -201,4 +201,36 @@
 	color: #ffffff;
 	letter-spacing: 2px;
   text-shadow: 2px 2px #000000;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  color: #a9bdd8;
+}
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+.features{
+  background-color: #0b2030;
+}
+#features{
+  background-color: #0b2030;
+}
+#textobody{
+  position: relative;
+  text-align: left;
+  color: #a9bdd8;
+  font-family : monospace;
+  font-size: 20px;
+  line-height: 30px;
+  left: 10px;
+}
+#stfeature{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+  color: #a9bdd8;
+  margin-top: 2ex;
+  padding: 10px;
 }
