@@ -241,3 +241,19 @@
 #round{
   border-radius: 10px;
 }
+
+#lista{
+  font-family: monospace;
+  color: #a9bdd8;
+  font-size:2em;
+  padding: 2%;
+}
+#grade{
+  background-color: #0b2030;
+  position: relative;
+  margin-top: 50px;
+}
+.gradecurricular{
+  background-color: #000000;
+  height: 120vh;
+}
