@@ -23,6 +23,11 @@
       background-color: #525252;
   }
 
+  .wrapper{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 
 * {
     margin: 0;
@@ -144,8 +149,8 @@
     background-color: #0b2030;
     border-color: #0b2030;
     border-radius: 2%;
-    width: 420px;
-    height: 540px;
+    width: 50vh;
+    height: 55vh;
     top: 10px;
 }
 #textobox{
@@ -166,6 +171,7 @@
     width: 100%;
     height: 800px;
     display: inline-flex;
+    position: relative;
 }
 .subtitulo{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -211,9 +217,6 @@
   letter-spacing: -.05rem;
 }
 .features{
-  background-color: #0b2030;
-}
-#features{
   background-color: #0b2030;
 }
 #textobody{
