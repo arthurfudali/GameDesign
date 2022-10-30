@@ -255,5 +255,68 @@
 }
 .gradecurricular{
   background-color: #000000;
-  height: 120vh;
+}
+#tabelagrade{
+  background-color: #0b2030;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 2em;
+  color: #a9bdd8;
+  margin-top: 10vh;
+}
+
+footer{
+  background: #0b2030;
+  height: auto;
+  width: 100vw;
+  font-family: monospace;
+  padding-top: 40px;
+  color: #a9bdd8;
+
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+
+}
+.social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.social li{
+  margin: 0 10px;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
+.social a i{
+  font-size: 2rem;
+}
+.footer-bottom{
+  background: #071a29;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  justify-content: center;
+
 }
