@@ -23,16 +23,9 @@
       background-color: #525252;
   }
 
-  .wrapper{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
   a {
@@ -64,6 +57,7 @@
   .nav-list {
     list-style: none;
     display: flex;
+    margin-top: 1%;
   }
   
   .nav-list li {
@@ -263,7 +257,7 @@
   padding: 10px;
   font-size: 2em;
   color: #a9bdd8;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 footer{
@@ -319,4 +313,10 @@ footer{
   text-align: center;
   justify-content: center;
 
+}
+.titulograde{
+  font-family: monospace;
+  font-weight: 400;
+  line-height: 51px;
+  color: #a9bdd8;
 }
