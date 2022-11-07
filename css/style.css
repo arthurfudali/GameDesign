@@ -133,11 +133,6 @@
   .btn-primary {
     background-color: transparent;
   }
-  .navfixa{
-    position: sticky;
-    display: flex;
-    z-index: 2;
-  }
 
 .box{
     background-color: #0b2030;
@@ -154,7 +149,7 @@
     font-family : monospace;
     font-size: 20px;
     line-height: 30px;
-    left: 80px;
+    left: 2%;
 }
 .interna{
     position: relative;
@@ -221,7 +216,7 @@
   font-size: 20px;
   line-height: 30px;
   left: 10px;
-  width: 700px;
+  width: 35vw;
 }
 #stfeature{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -319,4 +314,28 @@ footer{
   font-weight: 400;
   line-height: 51px;
   color: #a9bdd8;
+}
+.faculdades{
+  background-color: #0b2030;
+}
+#listafaculdade{
+  list-style: none;
+}
+
+
+.universidades-logos{
+  position: relative;
+  margin: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.universidades-logos ul li{
+  position: relative;
+  list-style: none;
+  margin: 0 70px;
+  margin-bottom: 40px;
 }
