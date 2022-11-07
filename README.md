@@ -1,2 +1,4 @@
 # siteProjetoProfissoes
-Versão com bootstrap do site sobre game design
+Site do projeto de profissões da Etec registro com o tema: Game Design 
+
+
