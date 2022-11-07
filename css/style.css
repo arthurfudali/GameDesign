@@ -1,3 +1,4 @@
+/* SCROLLBAR */
 ::-webkit-scrollbar{
     width: 8px;
     height: 7px;
@@ -22,7 +23,7 @@
   ::-webkit-scrollbar-thumb:hover{
       background-color: #525252;
   }
-
+/* BODY */
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +45,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
   }
-  
+  /* NAV */
   nav {
     display: flex;
     justify-content: space-around;
@@ -134,6 +135,7 @@
     background-color: transparent;
   }
 
+/* SOBRE */
 .box{
     background-color: #0b2030;
     border-color: #0b2030;
@@ -170,6 +172,7 @@
     text-align: center;
     margin-top: 2ex;
 }
+/* BANNER */
 .banner{
 	height: 100vh;
 	width: 100vw;
@@ -195,7 +198,7 @@
 	letter-spacing: 2px;
   text-shadow: 2px 2px #000000;
 }
-
+/* FEATURETTE */
 .featurette-divider {
   margin: 5rem ; /* Space out the Bootstrap <hr> more */
   color: #a9bdd8;
@@ -211,7 +214,6 @@
   font-size: 20px;
   line-height: 30px;
   left: 2%;
-  width: 35vw;
 }
 #stfeature{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -232,6 +234,7 @@
   font-size:2em;
   padding: 2%;
 }
+/* GRADE CURRICULAR */
 #grade{
   background-color: #0b2030;
   position: relative;
@@ -249,7 +252,7 @@
   color: #a9bdd8;
   margin-top: 5vh;
 }
-
+/* FOOTER */ 
 footer{
   background: #0b2030;
   height: auto;
@@ -310,14 +313,15 @@ footer{
   line-height: 51px;
   color: #a9bdd8;
 }
+
+/* FACULDADES */
+
 .faculdades{
   background-color: #0b2030;
 }
 #listafaculdade{
   list-style: none;
 }
-
-
 .universidades-logos{
   position: relative;
   margin: 0;
