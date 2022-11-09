@@ -203,6 +203,10 @@
   margin: 5rem ; /* Space out the Bootstrap <hr> more */
   color: #a9bdd8;
 }
+#featurette-divider-bottom {
+  margin-bottom: 0rem !important;
+  padding-bottom: 5em;
+}
 .features{
   background-color: #0b2030;
 }
